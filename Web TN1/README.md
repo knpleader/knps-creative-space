@@ -1,0 +1,1 @@
+©COPYRIGHT BY KNP/S

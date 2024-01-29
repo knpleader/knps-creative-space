@@ -1,0 +1,22 @@
+/* drawing.css */
+#drawingCanvas {
+    border: 2px solid #333;
+    cursor: crosshair;
+}
+
+#drawing-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.toolbar-btn {
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#eraserSize {
+    width: 50px;
+}

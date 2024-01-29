@@ -1,0 +1,50 @@
+<!-- drawing.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Space</title>
+    <link rel="stylesheet" href="../assets/styles/main.css">
+    <link rel="stylesheet" href="../assets/styles/drawing.css">
+</head>
+<body>
+    <!-- Header Component -->
+    <header>
+        <div class="container">
+            <h1>KNP/S Creative</h1>
+        </div>
+    </header>
+
+    <!-- Drawing Page Content -->
+    <div class="container">
+        <h2>Trang Vẽ</h2>
+        <div id="drawing-toolbar">
+            <input type="color" id="colorPicker" value="#000000">
+            <select id="brushSize">
+                <option value="5">Small</option>
+                <option value="10">Medium</option>
+                <option value="15">Large</option>
+            </select>
+            <input type="number" id="eraserSize" value="20" min="1">
+            <div>
+                <button class="toolbar-btn" id="btnPen">Bút</button>
+                <button class="toolbar-btn" id="btnEraser">Tẩy</button>
+                <button class="toolbar-btn" id="btnInsertImage">Chèn ảnh</button>
+                <input type="file" id="imageInput" style="display: none" />
+            </div>
+        </div>
+        <canvas id="drawingCanvas" width="800" height="600"></canvas>
+    </div>
+
+    <!-- Footer Component -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 KNP/S. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="../assets/scripts/main.js"></script>
+    <script src="../assets/scripts/drawing.js"></script>
+</body>
+</html>
